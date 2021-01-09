@@ -20,3 +20,9 @@ nav {
     
     height: 80px;
 }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
