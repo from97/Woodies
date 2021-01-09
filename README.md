@@ -1,5 +1,6 @@
-# publishing_01  
+# Dessert-Factory 
 Figma 파일로 제공된 무료 디자인 시안을 보고 반응형 웹 사이트 구현하기  
+결과물 확인하기 : https://from97.github.io/Dessert-Factory/  
 
 프론트엔드 개발자가 되는 것을 목표로 공부하고 연습하는 중입니다.  
 
