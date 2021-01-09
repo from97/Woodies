@@ -12,3 +12,11 @@ html {
     left: 0px;
     top: 0px;
 }
+
+nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+    height: 80px;
+}
