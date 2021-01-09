@@ -1,5 +1,8 @@
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 ul, li {
@@ -13,6 +16,7 @@ ul, li {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    position: relative;
 }
 
 header {
@@ -25,6 +29,7 @@ nav {
     align-items: center;
     height: 80px;
     position: relative;
+    z-index: 1;
 }
 
 .logo {
@@ -52,4 +57,55 @@ a.sign-up {
     border: 1px solid #3E3F43;
     text-align: center;
     line-height: 40px;
+}
+
+.design-element-01 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 800px;
+}
+
+.coffee-table {
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    top: 165px;
+    right: 0px;
+}
+
+.rectangle {
+    width: 30vw;
+    height: 800px;
+    background: #F9BDBD;
+    z-index: 5;
+    border-bottom-left-radius: 50px;
+}
+
+.title {
+    width: 48vw;
+    height: 376px;
+    position: absolute;
+    top: 217px;
+    left: 102px;
+}
+
+h1 {
+    font-size: 7.2rem;
+}
+
+p {
+    font-size: 3.6rem;
+}
+
+.explore {
+    display: inline-block;
+    width: 175px;
+    height: 50px;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 50px;
+    background: #DAA520;
+    border-radius: 4px;
+    color:#FFF;
 }
