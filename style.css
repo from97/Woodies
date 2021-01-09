@@ -4,16 +4,52 @@ html {
 
 ul, li {
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 #wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    width: 100%;
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    position: relative;
+}
+
+.logo {
+    width: 192px;
+    height: 33px;
+    position: absolute;
+    top: 23px;
+    left: 80px;
 }
 
 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 737px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 28px;
 }
 
-button {
+a.sign-up {
+    width: 137px;
+    border: 1px solid #3E3F43;
+    text-align: center;
+    line-height: 40px;
 }
