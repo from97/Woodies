@@ -15,13 +15,15 @@ ul, li {
     position: absolute;
     left: 0px;
     top: 0px;
+
+    width: 100vw;
 }
 
 nav {
     position: absolute;
     left: 0px;
     top: 0px;
-    
+    width: 100%;
     height: 80px;
 }
 
@@ -31,5 +33,10 @@ ul {
     align-items: center;
     position: absolute;
     top: 20px;
-    left: 50%;
+    right: 28px;
+}
+
+button {
+    width: 137px;
+    height: 40px;
 }
