@@ -1,4 +1,4 @@
-# Dessert-Factory 
+# Woodies
 Figma 파일로 제공된 무료 디자인 시안을 보고 반응형 웹 사이트 구현하기  
 결과물 확인하기 : https://from97.github.io/Dessert-Factory/  
 
