@@ -68,8 +68,10 @@ li:first-child {
 a.sign-up {
     width: 137px;
     border: 1px solid #3E3F43;
+    border-radius: 5px;
     text-align: center;
     line-height: 40px;
+    font-weight: bold;
 }
 
 .design-element-01 {
