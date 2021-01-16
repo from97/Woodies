@@ -3,6 +3,7 @@ html {
     padding: 0;
     margin: 0;
     font-family: 'Nunito', sans-serif;
+    font-style: normal;
 }
 
 ul, li {
@@ -30,6 +31,8 @@ nav {
     height: 80px;
     position: relative;
     z-index: 1;
+    font-weight: 400;
+    font-size: 1.6rem;
 }
 
 .logo {
@@ -44,12 +47,17 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 737px;
+    width: 68%;
     height: 40px;
     line-height: 40px;
     position: absolute;
     top: 20px;
     right: 28px;
+}
+
+li:first-child {
+    color: #DAA520;
+    font-weight: 800;
 }
 
 a.sign-up {
