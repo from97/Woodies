@@ -12,6 +12,10 @@ ul, li {
     margin: 0px;
 }
 
+h1, p {
+    margin: 0;
+}
+
 #wrapper {
     display: flex;
     flex-direction: column;
@@ -112,6 +116,7 @@ a.sign-up {
 
 h1 {
     font-size: 7.2rem;
+    margin: 16px 0;
 }
 
 p {
